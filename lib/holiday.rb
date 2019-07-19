@@ -67,11 +67,10 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-holiday_hash.each do |season|
-  season.each do |holiday|
-    holiday.each do |data|
-      
-    end
+holiday_hash.each do |season, holiday|
+  puts "#{season}:"
+  holiday.each do |data|
+    puts "  "
   end
 end
 
