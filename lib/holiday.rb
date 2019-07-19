@@ -49,7 +49,10 @@ def all_winter_holiday_supplies(holiday_hash)
 new_array = []
   holiday_hash[:winter].each do |holiday|
     holiday.each do |data|
-      new_array << data
+      i = 0
+      while i < data.length
+      new_array << data[i]
+      i += 1
     end
   end
   new_array
