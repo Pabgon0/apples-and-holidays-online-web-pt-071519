@@ -53,6 +53,7 @@ new_array = []
       while i < data.length
       new_array << data[i]
       i += 1
+      end
     end
   end
   new_array
